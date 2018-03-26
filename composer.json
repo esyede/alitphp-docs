@@ -1,0 +1,21 @@
+{
+	"name": "esyede/alitphp",
+	"description": "Simple, lightweight php micro framework",
+	"homepage": "http://alitphp.com/",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/esyede/alitphp"
+		}
+	],
+	"autoload": {
+		"files": [
+			"vendor/alitphp/src/alit.php",
+			"vendor/erusev/src/Parsedown.php"
+		]
+	}
+}
